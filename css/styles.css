@@ -1,0 +1,222 @@
+:root {
+    --primari-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-text-color: #2196f3;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--primari-text-color);
+    width: 1600px;
+    height: 2346px;
+
+    background: #ffffff;
+}
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* --------------Navigation-------------- */
+
+/* .header {
+}
+.navigation {
+} */
+.logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: var(--primari-text-color);
+    text-decoration: none;
+}
+.logo-web {
+    color: var(--accent-text-color);
+}
+
+.navigation-list .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--primari-text-color);
+}
+.contact-list .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+.link:hover,
+.link:focus,
+.navigation-list .link.current {
+    color: var(--accent-text-color);
+}
+
+/* --------------Hero-------------- */
+
+.section-hero {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2f303a;
+}
+.hero-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.hero-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background-color: var(--accent-text-color);
+    cursor: pointer;
+}
+
+/* --------------Benefits-------------- */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primari-text-color);
+}
+.section-benefits .text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+.section-benefits .subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primari-text-color);
+}
+
+/* --------------Portfolio-------------- */
+
+/* .section-teams {
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1446px;
+
+    background: #f5f4fa;
+} */
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primari-text-color);
+}
+.team-profession {
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/* --------------Footer-------------- */
+
+.footer {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+    background: #2f303a;
+}
+.footer .logo {
+    font-family: "Raleway";
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+.address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+.contact {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* --------------Portfolio.HTML-------------- */
+
+.btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primari-text-color);
+    background-color: #f5f4fa;
+}
+.btn:hover,
+.btn:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    background-color: var(--accent-text-color);
+}
+.project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primari-text-color);
+}
+.direction {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
